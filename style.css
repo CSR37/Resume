@@ -1,0 +1,153 @@
+/* Google Font (Use in index.html for better performance) */
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    color: #58a6ff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+/* Header */
+#header {
+    text-align: center;
+    background: #161b22;
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+#header a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#header a:hover {
+    color: #1f6feb;
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #161b22;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(88, 166, 255, 0.2);
+    border-radius: 8px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #58a6ff;
+    margin: 10px 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #0d1117;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #30363d;
+    padding: 12px;
+    text-align: left;
+    color: #c9d1d9;
+}
+
+th {
+    background: #21262d;
+    color: #58a6ff;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #161b22;
+    color: #58a6ff;
+    margin-top: auto;
+}
+
+/* Links */
+a {
+    color: #58a6ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1f6feb;
+}
+
+/* Download Button */
+.download-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #c9d1d9;
+    background: #164d8c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background: #165cc6;
+    transform: scale(1.05);
+}
+
+.download-btn:active {
+    background: #153c78; /* Slightly darker than default */
+    transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
